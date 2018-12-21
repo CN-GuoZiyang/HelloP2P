@@ -1,4 +1,4 @@
-### <center>第六章 hello进程管理</center>
+### <center>第六章 hello的进程管理</center>
 
 #### 6.1 进程的概念与作用
 
