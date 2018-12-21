@@ -23,3 +23,5 @@
 * [附件](attachment.md)
 
 * [参考文献](reference.md)
+
+* [开源协议](license.md)
