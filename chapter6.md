@@ -70,9 +70,7 @@ pstree命令可以以树状图的形式显示进程间的关系，由于进程�
 
 可以看到，hello进程的从属关系为：
 
-system => system => gnome-terminal => zsh => hello
-
-其中，system是所有进程的祖先进程。
+Systems => systems => gnome-terminal => zsh => hello
 
 使用fg命令加上作业id，可以将该进程转为前台进程并继续执行，输入fg %1，如下：
 

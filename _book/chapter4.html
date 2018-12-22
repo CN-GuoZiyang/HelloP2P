@@ -1,343 +1,335 @@
-
 <!DOCTYPE HTML>
-<html lang="" >
+<html lang="en" >
+    <!-- Start book 程序人生-Hello’s P2P -->
     <head>
+        <!-- head:start -->
         <meta charset="UTF-8">
-        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>第四章 汇编 · 程序人生-Hello’s P2P</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <title>第四章 汇编 | 程序人生-Hello’s P2P</title>
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
         <meta name="description" content="">
-        <meta name="generator" content="GitBook 3.2.3">
+        <meta name="generator" content="GitBook 2.6.7">
         <meta name="author" content="CN-GuoZiyang">
         
+        <meta name="HandheldFriendly" content="true"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <link rel="apple-touch-icon-precomposed" sizes="152x152" href="gitbook/images/apple-touch-icon-precomposed-152.png">
+        <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
         
-    
     <link rel="stylesheet" href="gitbook/style.css">
-
     
-            
-                
-                <link rel="stylesheet" href="gitbook/gitbook-plugin-highlight/website.css">
-                
-            
-                
-                <link rel="stylesheet" href="gitbook/gitbook-plugin-katex/katex.min.css">
-                
-            
-                
-                <link rel="stylesheet" href="gitbook/gitbook-plugin-splitter/splitter.css">
-                
-            
-                
-                <link rel="stylesheet" href="gitbook/gitbook-plugin-toggle-chapters/toggle.css">
-                
-            
-                
-                <link rel="stylesheet" href="gitbook/gitbook-plugin-search/search.css">
-                
-            
-                
-                <link rel="stylesheet" href="gitbook/gitbook-plugin-fontsettings/website.css">
-                
-            
         
-
-    
-
-    
+        <link rel="stylesheet" href="gitbook/plugins/gitbook-plugin-highlight/website.css">
         
     
         
-    
+        <link rel="stylesheet" href="gitbook/plugins/gitbook-plugin-katex/katex.min.css">
         
     
         
-    
+        <link rel="stylesheet" href="gitbook/plugins/gitbook-plugin-splitter/splitter.css">
         
     
         
+        <link rel="stylesheet" href="gitbook/plugins/gitbook-plugin-toggle-chapters/toggle.css">
+        
+    
+        
+        <link rel="stylesheet" href="gitbook/plugins/gitbook-plugin-search/search.css">
+        
+    
+        
+        <link rel="stylesheet" href="gitbook/plugins/gitbook-plugin-fontsettings/website.css">
+        
+    
     
 
         
     
     
-    <meta name="HandheldFriendly" content="true"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black">
-    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="gitbook/images/apple-touch-icon-precomposed-152.png">
-    <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
-
-    
-    <link rel="next" href="chapter5.html" />
+    <link rel="next" href="./chapter5.html" />
     
     
-    <link rel="prev" href="chapter3.html" />
+    <link rel="prev" href="./chapter3.html" />
     
 
+        <!-- head:end -->
     </head>
     <body>
+        <!-- body:start -->
         
-<div class="book">
-    <div class="book-summary">
-        
+    <div class="book"
+        data-level="5"
+        data-chapter-title="第四章 汇编"
+        data-filepath="chapter4.md"
+        data-basepath="."
+        data-revision="Sun Dec 23 2018 00:39:58 GMT+0800 (CST)"
+        data-innerlanguage="">
+    
+
+<div class="book-summary">
+    <nav role="navigation">
+        <ul class="summary">
             
-<div id="book-search-input" role="search">
-    <input type="text" placeholder="Type to search" />
+            
+            
+                
+                <li>
+                    <a href="https://guoziyang.top" target="blank" class="custom-link">我的博客</a>
+                </li>
+            
+            
+
+            
+            <li class="divider"></li>
+            
+
+            
+    
+        <li class="chapter " data-level="0" data-path="index.html">
+            
+                
+                    <a href="./index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                        首页
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1" data-path="abstract.html">
+            
+                
+                    <a href="./abstract.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.</b>
+                        
+                        摘要
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2" data-path="chapter1.html">
+            
+                
+                    <a href="./chapter1.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.</b>
+                        
+                        第一章 概述
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3" data-path="chapter2.html">
+            
+                
+                    <a href="./chapter2.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.</b>
+                        
+                        第二章 预处理
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4" data-path="chapter3.html">
+            
+                
+                    <a href="./chapter3.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.</b>
+                        
+                        第三章 编译
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter active" data-level="5" data-path="chapter4.html">
+            
+                
+                    <a href="./chapter4.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.</b>
+                        
+                        第四章 汇编
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="6" data-path="chapter5.html">
+            
+                
+                    <a href="./chapter5.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>6.</b>
+                        
+                        第五章 链接
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="7" data-path="chapter6.html">
+            
+                
+                    <a href="./chapter6.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>7.</b>
+                        
+                        第六章 HELLO进程管理
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="8" data-path="chapter7.html">
+            
+                
+                    <a href="./chapter7.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>8.</b>
+                        
+                        第七章 HELLO存储管理
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="9" data-path="chapter8.html">
+            
+                
+                    <a href="./chapter8.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>9.</b>
+                        
+                        第八章 HELLO的IO管理
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="10" data-path="conclusion.html">
+            
+                
+                    <a href="./conclusion.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>10.</b>
+                        
+                        结论
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="11" data-path="attachment.html">
+            
+                
+                    <a href="./attachment.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>11.</b>
+                        
+                        附件
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="12" data-path="reference.html">
+            
+                
+                    <a href="./reference.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>12.</b>
+                        
+                        参考文献
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="13" data-path="license.html">
+            
+                
+                    <a href="./license.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>13.</b>
+                        
+                        开源协议
+                    </a>
+            
+            
+        </li>
+    
+
+
+            
+            <li class="divider"></li>
+            <li>
+                <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+                    Published with GitBook
+                </a>
+            </li>
+            
+        </ul>
+    </nav>
 </div>
 
-            
-                <nav role="navigation">
-                
-
-
-<ul class="summary">
-    
-    
-    
-        
-        <li>
-            <a href="https://guoziyang.top" target="_blank" class="custom-link">我的博客</a>
-        </li>
-    
-    
-
-    
-    <li class="divider"></li>
-    
-
-    
-        
-        
-    
-        <li class="chapter " data-level="1.1" data-path="./">
-            
-                <a href="./">
-            
-                    
-                    首页
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="1.2" data-path="abstract.html">
-            
-                <a href="abstract.html">
-            
-                    
-                    摘要
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="1.3" data-path="chapter1.html">
-            
-                <a href="chapter1.html">
-            
-                    
-                    第一章 概述
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="1.4" data-path="chapter2.html">
-            
-                <a href="chapter2.html">
-            
-                    
-                    第二章 预处理
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="1.5" data-path="chapter3.html">
-            
-                <a href="chapter3.html">
-            
-                    
-                    第三章 编译
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter active" data-level="1.6" data-path="chapter4.html">
-            
-                <a href="chapter4.html">
-            
-                    
-                    第四章 汇编
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="1.7" data-path="chapter5.html">
-            
-                <a href="chapter5.html">
-            
-                    
-                    第五章 链接
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="1.8" data-path="chapter6.html">
-            
-                <a href="chapter6.html">
-            
-                    
-                    第六章 HELLO进程管理
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="1.9" data-path="chapter7.html">
-            
-                <a href="chapter7.html">
-            
-                    
-                    第七章 HELLO存储管理
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="1.10" data-path="chapter8.html">
-            
-                <a href="chapter8.html">
-            
-                    
-                    第八章 HELLO的IO管理
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="1.11" data-path="conclusion.html">
-            
-                <a href="conclusion.html">
-            
-                    
-                    结论
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="1.12" data-path="attachment.html">
-            
-                <a href="attachment.html">
-            
-                    
-                    附件
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="1.13" data-path="reference.html">
-            
-                <a href="reference.html">
-            
-                    
-                    参考文献
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="1.14" data-path="license.html">
-            
-                <a href="license.html">
-            
-                    
-                    开源协议
-            
-                </a>
-            
-
-            
-        </li>
-    
-
-    
-
-    <li class="divider"></li>
-
-    <li>
-        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
-            Published with GitBook
-        </a>
-    </li>
-</ul>
-
-
-                </nav>
-            
-        
-    </div>
-
     <div class="book-body">
-        
-            <div class="body-inner">
-                
-                    
-
-<div class="book-header" role="navigation">
+        <div class="body-inner">
+            <div class="book-header" role="navigation">
+    <!-- Actions Left -->
     
 
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href="." >第四章 汇编</a>
+        <a href="./" >程序人生-Hello’s P2P</a>
     </h1>
 </div>
 
-
-
-
-                    <div class="page-wrapper" tabindex="-1" role="main">
-                        <div class="page-inner">
-                            
-<div id="book-search-results">
-    <div class="search-noresults">
-    
-                                <section class="normal markdown-section">
-                                
-                                <h3 id="&#x7B2C;&#x56DB;&#x7AE0;-&#x6C47;&#x7F16;"><center>&#x7B2C;&#x56DB;&#x7AE0; &#x6C47;&#x7F16;</center></h3>
+            <div class="page-wrapper" tabindex="-1" role="main">
+                <div class="page-inner">
+                
+                
+                    <section class="normal" id="section-">
+                    
+                        <h3 id="&#x7B2C;&#x56DB;&#x7AE0;-&#x6C47;&#x7F16;"><center>&#x7B2C;&#x56DB;&#x7AE0; &#x6C47;&#x7F16;</center></h3>
 <h4 id="41-&#x6C47;&#x7F16;&#x7684;&#x6982;&#x5FF5;&#x4E0E;&#x4F5C;&#x7528;">4.1 &#x6C47;&#x7F16;&#x7684;&#x6982;&#x5FF5;&#x4E0E;&#x4F5C;&#x7528;</h4>
 <p>&#x6C47;&#x7F16;&#xFF0C;&#x662F;&#x5C06;&#x7531;ascii&#x7801;&#x5B58;&#x50A8;&#x7684;&#x6C47;&#x7F16;&#x6587;&#x4EF6;&#xFF0C;&#x8F6C;&#x5316;&#x4E3A;&#x4E8C;&#x8FDB;&#x5236;&#x5F62;&#x5F0F;&#x7684;&#x53EF;&#x91CD;&#x5B9A;&#x4F4D;&#x76EE;&#x6807;&#x6587;&#x4EF6;&#x7684;&#x8FC7;&#x7A0B;&#x3002;&#x901A;&#x5E38;&#xFF0C;&#x6E90;&#x6587;&#x4EF6;&#x662F;&#x4E00;&#x4E2A;&#x7ECF;&#x8FC7;&#x7F16;&#x8BD1;&#x7684;.s&#x6587;&#x4EF6;&#x3002;</p>
 <p>&#x6309;&#x7167;&#x5E73;&#x53F0;&#x7684;&#x4E0D;&#x540C;&#xFF0C;CPU&#x7684;&#x6307;&#x4EE4;&#x96C6;&#x4E0D;&#x540C;&#xFF0C;&#x751F;&#x6210;&#x7684;&#x53EF;&#x91CD;&#x5B9A;&#x4F4D;&#x76EE;&#x6807;&#x6587;&#x4EF6;&#x7684;&#x5185;&#x5BB9;&#x4E5F;&#x4E0D;&#x540C;&#x3002;&#x6C47;&#x7F16;&#x5668;&#x6839;&#x636E;&#x5404;&#x4E2A;&#x5E73;&#x53F0;&#x7684;&#x6307;&#x4EE4;&#x96C6;&#x9010;&#x6761;&#x8BED;&#x53E5;&#x7FFB;&#x8BD1;&#x4E3A;&#x4E8C;&#x8FDB;&#x5236;&#x7684;&#x5F62;&#x5F0F;&#x5B58;&#x50A8;&#x3002;&#x540C;&#x65F6;&#x5C06;&#x4E00;&#x4E9B;&#x5E38;&#x91CF;&#x548C;&#x5168;&#x5C40;&#x53D8;&#x91CF;&#x63D2;&#x5728;&#x76EE;&#x6807;&#x6587;&#x4EF6;&#x7684;&#x4E0D;&#x540C;&#x7684;&#x8282;&#x91CC;&#x3002;&#x540C;&#x65F6;&#xFF0C;&#x6C47;&#x7F16;&#x5668;&#x8FD8;&#x4F1A;&#x5C06;ELF&#x6587;&#x4EF6;&#x7684;&#x4FE1;&#x606F;&#x3001;&#x673A;&#x5668;&#x7C7B;&#x578B;&#x7B49;&#x6570;&#x636E;&#x5199;&#x5165;ELF&#x5934;&#xFF0C;&#x65B9;&#x4FBF;&#x540E;&#x7EED;&#x64CD;&#x4F5C;&#x3002;</p>
@@ -413,94 +405,62 @@
 <h4 id="45-&#x672C;&#x7AE0;&#x5C0F;&#x7ED3;">4.5 &#x672C;&#x7AE0;&#x5C0F;&#x7ED3;</h4>
 <p>&#x4ECE;&#x6C47;&#x7F16;&#x5F00;&#x59CB;&#xFF0C;&#x7A0B;&#x5E8F;&#x5F00;&#x59CB;&#x53D8;&#x6210;&#x4E8C;&#x8FDB;&#x5236;&#x7684;&#x5F62;&#x5F0F;&#xFF0C;&#x867D;&#x7136;&#x4E0D;&#x518D;&#x7528;&#x6237;&#x53CB;&#x597D;&#xFF0C;&#x4F46;&#x662F;&#x6108;&#x53D1;&#x5730;&#x8BA1;&#x7B97;&#x673A;&#x53CB;&#x597D;&#x3002;&#x6C47;&#x7F16;&#x540E;&#x7684;&#x7A0B;&#x5E8F;&#x5F00;&#x59CB;&#x5C06;&#x5404;&#x4E2A;&#x5185;&#x5BB9;&#xFF08;&#x4EE3;&#x7801;&#xFF0C;&#x53D8;&#x91CF;&#x7B49;&#xFF09;&#x5206;&#x8282;&#x5B58;&#x50A8;&#xFF0C;&#x5411;&#x5185;&#x5B58;&#x6620;&#x50CF;&#x4E0A;&#x9760;&#x62E2;&#x3002;&#x5B58;&#x50A8;&#x7684;&#x91CD;&#x5B9A;&#x4F4D;&#x8282;&#x4E3A;&#x4E0B;&#x4E00;&#x7AE0;&#x7684;&#x94FE;&#x63A5;&#x63D0;&#x4F9B;&#x4E86;&#x6307;&#x5F15;&#x3002;</p>
 
-                                
-                                </section>
-                            
-    </div>
-    <div class="search-results">
-        <div class="has-results">
-            
-            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
-            <ul class="search-results-list"></ul>
-            
-        </div>
-        <div class="no-results">
-            
-            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
-            
-        </div>
-    </div>
-</div>
-
-                        </div>
-                    </div>
+                    
+                    </section>
                 
+                
+                </div>
             </div>
+        </div>
 
-            
-                
-                <a href="chapter3.html" class="navigation navigation-prev " aria-label="Previous page: 第三章 编译">
-                    <i class="fa fa-angle-left"></i>
-                </a>
-                
-                
-                <a href="chapter5.html" class="navigation navigation-next " aria-label="Next page: 第五章 链接">
-                    <i class="fa fa-angle-right"></i>
-                </a>
-                
-            
+        
+        <a href="./chapter3.html" class="navigation navigation-prev " aria-label="Previous page: 第三章 编译"><i class="fa fa-angle-left"></i></a>
+        
+        
+        <a href="./chapter5.html" class="navigation navigation-next " aria-label="Next page: 第五章 链接"><i class="fa fa-angle-right"></i></a>
         
     </div>
-
-    <script>
-        var gitbook = gitbook || [];
-        gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"第四章 汇编","level":"1.6","depth":1,"next":{"title":"第五章 链接","level":"1.7","depth":1,"path":"chapter5.md","ref":"chapter5.md","articles":[]},"previous":{"title":"第三章 编译","level":"1.5","depth":1,"path":"chapter3.md","ref":"chapter3.md","articles":[]},"dir":"ltr"},"config":{"plugins":["highlight","github","katex","splitter","toggle-chapters"],"root":".","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"github":{"url":"https://github.com/CN-GuoZiyang"},"splitter":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"katex":{},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"toggle-chapters":{}},"theme":"default","author":"CN-GuoZiyang","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"程序人生-Hello’s P2P","links":{"sidebar":{"我的博客":"https://guoziyang.top"}},"gitbook":"*","description":"HITCS-2018大作业"},"file":{"path":"chapter4.md","mtime":"2018-12-13T13:59:02.329Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-12-22T16:20:14.799Z"},"basePath":".","book":{"language":""}});
-        });
-    </script>
 </div>
 
         
-    <script src="gitbook/gitbook.js"></script>
-    <script src="gitbook/theme.js"></script>
+<script src="gitbook/app.js"></script>
+
     
-        
-        <script src="gitbook/gitbook-plugin-github/plugin.js"></script>
-        
-    
-        
-        <script src="gitbook/gitbook-plugin-splitter/splitter.js"></script>
-        
-    
-        
-        <script src="gitbook/gitbook-plugin-toggle-chapters/toggle.js"></script>
-        
-    
-        
-        <script src="gitbook/gitbook-plugin-search/search-engine.js"></script>
-        
-    
-        
-        <script src="gitbook/gitbook-plugin-search/search.js"></script>
-        
-    
-        
-        <script src="gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
-        
-    
-        
-        <script src="gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
-        
-    
-        
-        <script src="gitbook/gitbook-plugin-sharing/buttons.js"></script>
-        
-    
-        
-        <script src="gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
-        
+    <script src="gitbook/plugins/gitbook-plugin-github/plugin.js"></script>
     
 
+    
+    <script src="gitbook/plugins/gitbook-plugin-splitter/splitter.js"></script>
+    
+
+    
+    <script src="gitbook/plugins/gitbook-plugin-toggle-chapters/toggle.js"></script>
+    
+
+    
+    <script src="gitbook/plugins/gitbook-plugin-search/lunr.min.js"></script>
+    
+
+    
+    <script src="gitbook/plugins/gitbook-plugin-search/search.js"></script>
+    
+
+    
+    <script src="gitbook/plugins/gitbook-plugin-sharing/buttons.js"></script>
+    
+
+    
+    <script src="gitbook/plugins/gitbook-plugin-fontsettings/buttons.js"></script>
+    
+
+<script>
+require(["gitbook"], function(gitbook) {
+    var config = {"github":{"url":"https://github.com/CN-GuoZiyang"},"highlight":{},"katex":{},"splitter":{},"toggle-chapters":{},"search":{"maxIndexSize":1000000},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2}};
+    gitbook.start(config);
+});
+</script>
+
+        <!-- body:end -->
     </body>
+    <!-- End of book 程序人生-Hello’s P2P -->
 </html>
-
