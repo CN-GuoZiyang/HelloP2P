@@ -34,7 +34,16 @@ hello进程结束之后，shell将对hello进程执行回收操作，如果shell
 
 #### 1.3 中间结果
 
-列出你为编写本论文，生成的中间结果文件的名字，文件的作用等。
+- hello.i：hello的预处理文件
+- hello.s：hello的编译文件
+- hello.o：hello的可重定位目标文件
+- hello：hello的可执行目标文件
+- hellooelf.txt：hello.o的elf信息
+- helloodump.txt：hello.o的反汇编信息
+- helloelf.txt：hello的elf信息
+- hellodump.txt：hello的反汇编信息
+- hellosymbols.txt：hello的符号表
+- pstree.txt：hello执行时的进程树
 
 #### 1.4 本章小结
 
