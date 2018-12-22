@@ -1,5 +1,9 @@
 ### <center>开源协议</center>
 
+本文章作为哈尔滨工业大学计算机系统2018年秋大作业使用，原始发表地址为https://hellop2p.guoziyang.top 。本文章采用<a href=https://creativecommons.org/licenses/by-nc-nd/4.0>知识共享署名-非商业性使用-禁止演绎 4.0 国际许可协议（CC BY-NC-ND 4.0）</a>进行许可。
+
+---
+
 <center><img src=img/by-nc-sa.eu.png></center>
 
 #### <center>署名-非商业性使用-禁止演绎 4.0 国际</center>
