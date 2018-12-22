@@ -49,7 +49,7 @@ movl	$0, %eax
 
 程序中出现了两个变量：分别是全局变量sleepsecs和局部变量i。
 
-全局变量sleepsecs的声明在标签sleepsecs中，调用时用$rip加上标签的值即可找到该变量。以下语句表明sleepsecs是一个长度为两个字节的长整型数据（实际上相当于short）。
+全局变量sleepsecs的声明在标签sleepsecs中，调用时用$rip加上标签的值即可找到该变量。以下语句表明sleepsecs是一个长整型数据，值为2。在.data标签下可以找到“.size	sleepsecs, 4”语句，表示sleepsecs占4个字节。
 
 ```assembly
 sleepsecs:
