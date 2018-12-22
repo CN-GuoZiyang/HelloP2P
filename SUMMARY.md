@@ -1,6 +1,8 @@
 # Summary
 
-* [摘要](README.md)
+* [首页](README.md)
+
+* [摘要](abstract.md)
 
 * [第一章 概述](chapter1.md)
 

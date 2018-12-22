@@ -1,5 +1,26 @@
-### <center>摘要</center>
+<center><img src=img/hit.jpg width="35%"/></center>
 
-一个程序，从编译到执行，需要软硬件多方面配合：编译器、链接器、操作系统、硬件驱动……。即使是一个最简单的hello，都经过了复杂繁琐的过程，才能在屏幕上输出一句话。本文通过追踪一个最简单的C语言小程序，结合edb、gdb等工具等分析，理解操作系统的调度和处理器的分时，还原计算机在编译运行时的配合与管理，从最底层的角度诠释程序，以期更好地理解计算机和Linux系统。
+<center><h2>计算机系统</h2></center>
 
-**关键词**：操作系统；计算机系统；编译原理；进程管理；存储管理
+<center><h3>大作业</h3></center>
+
+<br />
+
+<center><h5>题目：<u>程序人生-Hello's P2P</u></h5></center>
+
+<center><h5>专业：<u>计算机科学与技术</u></h5></center>
+
+<center><h5>学号：<u>1170300520</u></h5></center>
+
+<center><h5>班级：<u>1703005</u></h5></center>
+
+<center><h5>学生：<u>郭子阳</u></h5></center>
+
+<center><h5>指导老师：<u>吴锐</u></h5></center>
+
+<br />
+
+<center><h5>计算机科学与技术学院</h5></center>
+
+<center><h5>2018年12月</h5></center>
+

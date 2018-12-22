@@ -10,18 +10,12 @@
     },
     "plugins": [
         "highlight",
-        "-search", "search-pro",
         "github",
         "katex",
         "splitter",
-        "toggle-chapters",
-        "back-to-top-button"
+        "toggle-chapters"
     ],
     "pluginsConfig": {
-        "search-pro": {
-            "cutWordLib": "nodejieba",
-            "defineWord": ["Gitbook Use"]
-        },
         "github": {
             "url": "https://github.com/CN-GuoZiyang"
         }
